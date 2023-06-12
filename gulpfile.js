@@ -22,9 +22,8 @@ boilerplate({
 //CAMBIANDO COSAS
 //CAMBIANDO COSAS
 
-
-
-//CAMBIANDO CO-...
+//Tengo que cambiar algun CODIGO
+//ES MOMENTO DE HACERLO
 
 gulp.task('install', function (done) {
   return gulp.series('ios-apps:install', function installDone (seriesDone) {
