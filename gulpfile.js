@@ -38,3 +38,12 @@ gulp.task('install', function (done) {
     done();
   })();
 });
+
+gulp.task2('install', function (done) {
+  return gulp.series('ios-apps:install', function installDone (seriesDone) {
+    seriesDone();
+    done();
+  })();
+});
+
+
