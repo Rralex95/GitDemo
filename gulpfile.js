@@ -26,8 +26,11 @@ boilerplate({
 //ES MOMENTO DE HACERLO
 
 //Este es el no se cual cambio
-
+//jnkjdbdd
 //jajajajajaaj
+
+//como que no pues 
+//opppp
 
 gulp.task('install', function (done) {
   return gulp.series('ios-apps:install', function installDone (seriesDone) {
